@@ -1,0 +1,75 @@
+{
+  "name": "greenkeeper",
+  "description": "Your software, up to date, all the time",
+  "author": {
+    "name": "Stephan Bönnemann",
+    "email": "stephan@boennemann.me",
+    "url": "http://boennemann.me/"
+  },
+  "bin": {
+    "greenkeeper": "src/index.js",
+    "gk": "src/index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/greenkeeperio/support/issues"
+  },
+  "dependencies": {
+    "abbrev": "^1.0.7",
+    "ansi": "^0.3.0",
+    "char-spinner": "^1.0.1",
+    "github-slug": "0.0.2",
+    "hide-secrets": "^1.0.0",
+    "lodash": "^3.10.1",
+    "node-emoji": "^1.0.3",
+    "nopt": "^3.0.3",
+    "npmlog": "^1.2.1",
+    "openurl": "^1.1.0",
+    "os-homedir": "^1.0.1",
+    "random-string": "^0.1.2",
+    "request": "^2.60.0",
+    "update-notifier": "^0.5.0"
+  },
+  "devDependencies": {
+    "nyc": "^3.1.0",
+    "semantic-release": "^4.3.5",
+    "standard": "^5.0.2",
+    "tap": "^1.3.2"
+  },
+  "homepage": "http://greenkeeper.io/",
+  "license": "UNLICENSED",
+  "main": "src/index.js",
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boennemann/greenkeeper.git"
+  },
+  "scripts": {
+    "pretest": "standard",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
+    "start": "./src/index.js",
+    "test": "nyc tap test/*.js"
+  },
+  "version": "1.5.2",
+  "gitHead": "5cbbe29acacfa9f339b2757844dcb6714d35fda0",
+  "_id": "greenkeeper@1.5.2",
+  "_shasum": "0d4386165c5bd478fa37a6d7252ec9b2480b20f4",
+  "_from": "greenkeeper@*",
+  "_npmVersion": "2.14.6",
+  "_nodeVersion": "3.3.1",
+  "_npmUser": {
+    "name": "boennemann",
+    "email": "stephan@boennemann.me"
+  },
+  "dist": {
+    "shasum": "0d4386165c5bd478fa37a6d7252ec9b2480b20f4",
+    "tarball": "http://registry.npmjs.org/greenkeeper/-/greenkeeper-1.5.2.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "boennemann",
+      "email": "stephan@boennemann.me"
+    }
+  ],
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/greenkeeper/-/greenkeeper-1.5.2.tgz"
+}
