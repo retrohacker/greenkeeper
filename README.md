@@ -1,5 +1,7 @@
 # Getting Started with Greenkeeper
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/retrohacker/greenkeeper.svg)](https://greenkeeper.io/)
+
 You first step after installing `greenkeeper` is to log in. Type:
 
     $ greenkeeper login
